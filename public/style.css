@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,latin-ext');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-display: swap;
+  margin: 0;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(239, 241, 240);
+}
+
+.avatarTwo {
+  src: "https://kartinki-dlya-srisovki.ru/wp-content/uploads/2018/11/gubka-bob-5.jpg";
+  padding: 0;
+  margin-top: 10px;
+  width: 170px;
+  height: 170px;
+  background-color: rgba(239, 241, 240);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+header .bg {
+  background-color: rgb(215, 223, 231)
+}
+
+.bgtwo {
+  background-color: rgb(88, 102, 112);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+header .top-header {
+  min-height: 80px;
+  padding-top: 27px;
+}
+
+header .logo {
+  font-size: 32px;
+  color: rgb(51, 51, 51);
+  font-weight: 600;
+}
+
+header .bottom-header {
+  padding-top: 30px;
+  min-height: 20px;
+}
+
+.main-search {
+  float: right;
+  border: 1px solid rgb(215, 215, 215);
+  height: 40px;
+  width: 208px;
+  position: relative;
+  top: 196px;
+  left: -28px;
+  border-radius: 5px;
+}
+
+.main-search input {
+  font-size: 14px;
+    border: none;
+    padding-top: 10px;
+    width: 145px;
+    padding-left: 10px;
+    outline: none;;
+}
+
+.main-content {
+  margin-top: -10px;
+  display: inline-block;
+  position: absolute;
+  background-color: rgb(215, 223, 231);
+  border: 2px solid rgb(215, 223, 231);
+  border-radius: 5px;
+}
+
+.main-content {
+  width: 1140px;
+  height: 626px;
+  margin-left: 85px;
+  margin-right: 0;
+}
+
+/* .main-content img {
+    padding: 0;
+    margin-top: 10px;
+    width: 170px;
+    height: 170px;
+    background-color: rgba(239, 241, 240);
+} */
+
+.main-content .item {
+  display: flex;
+}
+
+.main-content .item-two {
+  width: 708px;
+  height: 170px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: rgb(190, 203, 217);
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  color: rgb(51, 51, 51);
+  font-weight: 600;
+}
+
+p {
+  display: inline-block;
+  font-size: 14px;
+  margin: 0;
+  color: #464148;
+}
+
+.bot {
+  display: contents;
+  font-size: 14px;
+  margin: 0;
+  color: #464148;
+  position: absolute;
+  font-weight: 700;
+}
+
+.main-aside {
+  margin-top: -170px;
+  position: relative;
+}
+
+.main-aside {
+  width: 260px;
+  height: auto;
+  float: right;
+}
+
+.fg, .fg mark {
+  font-size: 14px;
+  color: #635F57;
+}
+
+.fg {
+  padding-left: 40px;
+  margin: 20px;
+  display: inline-flex;
+}
+
+.fg mark {
+  background: transparent;
+  position: relative;
+  left: 23px;
+}
+
+.main-aside .part-1 {
+  height: 613px;
+  border: 2px solid #EEEEEE;
+  background: white;
+}
+
+.b-1 {
+  width: 132px;
+  height: 44px;
+  background-color: #4CB1CA;
+  position: relative;
+  top: -122px;
+  left: 54px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+html, input {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  word-wrap: break-word;
+}
+
+/* Pages */
+
+.pages {
+  height: 404px;
+  position: absolute;
+  width: 876px;
+}
+
+.page {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+/* Login Page */
+
+.login.page {
+  background-color: #000;
+  width: 100%;
+  height: 120%;
+  top: 0px;
+}
+
+.login.page .form {
+  height: 100px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+.login.page .form .usernameInput {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  padding-bottom: 15px;
+  text-align: center;
+  width: 400px;
+}
+
+.login.page .title {
+  font-size: 200%;
+}
+
+.login.page .usernameInput {
+  font-size: 200%;
+  letter-spacing: 3px;
+}
+
+.login.page .title, .login.page .usernameInput {
+  color: #fff;
+  font-weight: 100;
+}
+
+/* Chat page */
+
+.chat.page {
+  display: none;
+  padding: 10px;
+}
+
+/* Font */
+
+.messages {
+  font-size: 150%;
+}
+
+.inputMessage {
+  font-size: 100%;
+}
+
+/* Messages */
+
+.chatArea {
+  height: 100%;
+  padding-bottom: 60px;
+}
+
+.messages {
+  height: 100%;
+  margin: 0;
+  overflow-y: scroll;
+  padding: 10px 20px 10px 20px;
+}
+
+.message.typing .messageBody {
+  color: gray;
+}
+
+.username {
+  color: rgb(61, 77, 95)!important;
+  font-weight: 700;
+  overflow: hidden;
+  padding-right: 15px;
+  text-align: right;
+  border-radius: 10px;
+  padding: .5em;
+  font-size: .8em;
+  background: rgb(190, 203, 217)!important;
+  border: 0px solid black;
+  margin-left: 50%;
+}
+
+.messageBody {
+  color: rgb(61, 77, 95)!important;
+  font-weight: 700;
+  overflow: hidden;
+  text-align: right;
+  border-radius: 10px;
+  position: relative;
+  padding: 5px;
+  margin-top: 0px;
+  top: 9px;
+  font-size: 0.8em;
+  background: rgb(244, 248, 251);
+  margin-left: 50%;
+}
+
+/* Input */
+
+.inputM {
+  border: 1px solid rgb(149, 200, 241);
+  background: rgb(66, 139, 202);
+  border-radius: 5px;
+  height: 40px;
+  left: 142px;
+  margin-left: 60%;
+  color: white;
+  top: 389px;
+  outline: none;
+  padding-left: 5px;
+  position: inherit;
+  width: 179px;
+}
+
+.inputMessage {
+  border: 1px solid rgb(149, 200, 241);
+  bottom: -25px;
+  border-radius: 5px;
+  height: 40px;
+  left: 10px;
+  outline: none;
+  padding-left: 10px;
+  position: absolute;
+  width: 650px;
+}
+
+.message {
+  width: 100%;
+  border-radius: 10px;
+  padding: .5em;
+  font-size: .8em;
+}
+
+.message-out {
+  background: #407FFF;
+  color: white;
+  margin-left: 50%;
+}
+
+.message-in {
+  background: #F1F0F0;
+  color: black;
+}
+
+section#demo {
+  background: #fbfbfb;
+  position: relative;
+  padding: 0;
+  min-height: 100vh;
+  transition: height 9999s;
+}
+
+.vertical-align {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+}
+
+.card {
+  background: #fff;
+  box-shadow: 13px 13px 28px 2px rgba(0, 0, 0, 0.035);
+  padding: 7px 15px;
+}
+::-webkit-scrollbar-button {
+  background-image:url('');
+  background-repeat:no-repeat;
+  width:5px;
+  height:0px
+  }
+  
+  ::-webkit-scrollbar-track {
+  background-color: rgb(190,203,217);
+  border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 0px;
+  border-radius: 5px;
+  background-color:rgb(157,170,185);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover{
+  background-color:#56999f;
+  }
+  
+  ::-webkit-resizer{
+  background-image:url('');
+  background-repeat:no-repeat;
+  width:10px;
+  height:10px;
+  }
+  
+  ::-webkit-scrollbar{
+  width: 10px;
+  }
